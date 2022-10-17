@@ -1,0 +1,11 @@
+[user]
+	email = imakhlaqXD@gmail.com
+	name = imakhlaq
+[safe]
+	directory = F:/projects/Natours
+
+
+	[alias]
+    cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
+[core]
+	excludesFile = C:\\Users\\Administrator\\.gitignore
