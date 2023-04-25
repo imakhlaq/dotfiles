@@ -6,6 +6,6 @@
 
 
 	[alias]
-    cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
+    p = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 [core]
 	excludesFile = C:\\Users\\Administrator\\.gitignore
