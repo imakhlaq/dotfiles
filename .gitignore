@@ -9,11 +9,32 @@
 .cache
 node_modules
 yarn-error.log
+out
 #package-lock.json
 
 
 # Build directory
 /public
-.DS_Store
 
 .vscode/
+
+
+# Node
+npm-debug.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# WebStorm
+.idea/
+idea
+
+# vi
+*~
+
+# General
+log/
+*.log
