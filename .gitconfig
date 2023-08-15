@@ -9,3 +9,22 @@
     p = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 [core]
 	excludesFile = C:\\Users\\Administrator\\.gitignore
+
+
+
+
+
+
+==========================================================================
+[user]
+	email = imakhlaqXD@gmail.com
+	name = imakhlaq
+[safe]
+
+
+
+	[alias]
+    p = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
+[core]
+    excludesfile = ~/.gitignore
+	autocrlf = false
