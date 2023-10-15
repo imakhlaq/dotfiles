@@ -2,7 +2,8 @@
 *.class
 #c++
 *.exe
-
+*.yml
+*.properties
 
 
 # Project dependencies
@@ -29,8 +30,13 @@ npm-debug.log
 Thumbs.db
 
 # WebStorm
+.idea
 .idea/
-idea
+
+.fastRequest
+/.fastRequest
+.fastRequest/
+.fastRequest/config
 
 # vi
 *~
@@ -38,3 +44,13 @@ idea
 # General
 log/
 *.log
+
+
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+# IDEA config files
+.idea/
