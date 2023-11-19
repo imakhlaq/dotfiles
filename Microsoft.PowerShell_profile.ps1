@@ -12,7 +12,7 @@ if ($host.Name -eq 'ConsoleHost')
 Import-Module -Name Terminal-Icons
 Import-Module PSReadLine
 #set-alias desktop "Desktop.ps1"
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\imakhlaq.omp.json" | Invoke-Expression
 
 Set-PSReadLineOption -PredictionSource History
 #Set-PSReadLineOption -PredictionViewStyle ListView
