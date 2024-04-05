@@ -1,119 +1,45 @@
-#java
+# Java #
 *.class
-#c++
+
+# C++ #
 *.exe
-*.yml
-*.properties
 
-
-# Project dependencies
-.cache
-node_modules
-yarn-error.log
-out
-#package-lock.json
-
-
-# Build directory
-/public
-
-.vscode/
-
-
-# Node
-npm-debug.log
-
-# Mac
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# WebStorm
-.idea
-.idea/
-
-.fastRequest
-/.fastRequest
-.fastRequest/
-.fastRequest/config
-
-# vi
-*~
-
-# General
-log/
-*.log
-
-
-*.class
-
-# Package Files #
-*.war
-*.ear
-
-# IDEA config files
-.idea/
-
-
-
-#java
-*.class
-#c++
-*.exe
-*.yml
-*.properties
-
-
-# Project dependencies
-.cache
-node_modules
-yarn-error.log
-out
-#package-lock.json
-
-
-# Build directory
-/public
-
-.vscode/
-
-
-# Node
-npm-debug.log
-
-# Mac
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# WebStorm
-.idea
-.idea/
-
-.fastRequest
-/.fastRequest
-.fastRequest/
-.fastRequest/config
-
-# vi
-*~
-
-# General
+# General #
 log/
 *.log
 *.iml
 
-
-*.class
-
 # Package Files #
 *.war
 *.ear
 
-# IDEA config files
-.idea/
+### VS Code ###
+.vscode/
+
+# Project dependencies #
+.cache
+node_modules
+yarn-error.log
+out
+#package-lock.json
+
+# Build directory
+
+# Node
+npm-debug.log
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# FastRequest #
+.fastRequest
+.fastRequest/
+
+# vi
+*~
 
 HELP.md
 .gradle
@@ -136,9 +62,12 @@ bin/
 
 ### IntelliJ IDEA ###
 .idea
+.idea/
 *.iws
 *.iml
 *.ipr
+*.yml
+*.properties
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -150,5 +79,3 @@ out/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
