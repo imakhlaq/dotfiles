@@ -4,6 +4,9 @@
 # C++ #
 *.exe
 
+# docker #
+data
+
 # General #
 log/
 *.log
