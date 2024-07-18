@@ -1,0 +1,5 @@
+# Hide path view in the tree
+path : Help/Edit Custom Properties
+
+project.tree.structure.show.url=false
+ide.tree.horizontal.default.autoscrolling=false
