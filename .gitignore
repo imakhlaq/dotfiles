@@ -69,8 +69,9 @@ bin/
 *.iws
 *.iml
 *.ipr
-*.yml
-*.properties
+#*.yml
+application.properties
+application.yml
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -81,4 +82,3 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
-
